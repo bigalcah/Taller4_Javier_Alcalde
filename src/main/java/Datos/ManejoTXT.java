@@ -10,19 +10,35 @@ import java.util.ArrayList;
 
 public class ManejoTXT {
 
+
+
     // Método para leer un archivo de texto y mostrar su contenido
-    public static List<DatosTeams> cargarDatosDesdeArchivo(String rutaArchivo) {
+    public List<DatosTeams> cargarSelecciones(String rutaArchivo) {
         List<DatosTeams> equipos = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
             String linea;
             while ((linea = br.readLine()) != null) {
                 String[] datos = linea.split(";");
-                if (datos.length == 4) {
-                    String codigo = datos[0];
-                    String team = datos[1];
-                    int ranking = Integer.parseInt(datos[2]);
-                    String imageFileName = datos[3];
-                    DatosTeams equipo = new DatosTeams(team, ranking, imageFileName);
+                if (datos.length == 3) {
+                    String index = datos[0];
+                    String nombre = datos[1];
+                    String posicion = datos[2];
+
+                    // Dependiendo del índice, se agrega a un array específico
+                    DatosTeams equipo;
+                    if (index.equals("01")) {
+                        equipo = new DatosTeams(new String[]{nombre, posicion}, null, null, null);
+                    } else if (index.equals("02")) {
+                        equipo = new DatosTeams(null, new String[]{nombre, posicion}, null, null);
+                    } else if (index.equals("03")) {
+                        equipo = new DatosTeams(null, null, new String[]{nombre, posicion}, null);
+                    } else if (index.equals("04")) {
+                        equipo = new DatosTeams(null, null, null, new String[]{nombre, posicion});
+                    } else {
+                        // Otra lógica para el índice desconocido
+                        equipo = new DatosTeams(null, null, null, null);
+                    }
+
                     equipos.add(equipo);
                 } else {
                     System.out.println("Formato incorrecto en la línea: " + linea);

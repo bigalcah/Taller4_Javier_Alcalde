@@ -5,8 +5,10 @@ public class Player {
     private int numero;
     private String nombre;
 
-    public Player(){
-
+    public Player(Posicion posicion, int numero, String nombre){
+        this.posicion = posicion;
+        this.numero = numero;
+        this.nombre = nombre;
     }
 
 }
