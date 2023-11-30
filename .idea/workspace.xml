@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e29c027f-04cb-487c-9ec5-cd91ffb043e1" name="Changes" comment="comit">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/DatosPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/DatosPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/DatosTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/DatosTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/ManejoTXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/ManejoTXT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guis/GuiPlayers.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guis/GuiPlayers.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guis/GuiPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guis/GuiPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guis/GuiSelecciones.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guis/GuiSelecciones.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guis/GuiSelecciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guis/GuiSelecciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Launcher.java" afterDir="false" />
-    </list>
+    <list default="true" id="e29c027f-04cb-487c-9ec5-cd91ffb043e1" name="Changes" comment="comit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "289",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Desarrollo",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/javier/IdeaProjects/Taller4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

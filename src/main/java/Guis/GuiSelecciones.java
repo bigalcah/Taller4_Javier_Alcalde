@@ -30,7 +30,6 @@ public class GuiSelecciones extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent event) {
         if (event.getSource() == exitBtn) {
-            dispose();
             System.exit(0);
         } else if (event.getSource() == playersBtn) {
             GuiPlayers guiPlayers = new GuiPlayers();
