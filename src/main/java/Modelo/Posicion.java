@@ -1,6 +1,6 @@
 package Modelo;
 
-public enum Posicion {
+public enum Posicion {;
 
     public enum posicionPlayer{
         GK,
